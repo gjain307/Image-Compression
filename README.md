@@ -22,7 +22,9 @@ variance.
 After that quantization of the blocks is done on the basis of ranks.Those blocks will be
 quantized more who got higher ranks.Then the image is encoded and the compressed image
 and the rank information is stored in a different matrix.
+
 For Gray Scale Images:
+
 In gray scale Images there is no need to transform the image into ycbcr.As there is only
 luminous part only so there is no need of chroma sampling also.Rest of the process remains
 the same for gray scale images.
